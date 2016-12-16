@@ -1,0 +1,6 @@
+GIF TO JPG:
+python gif2jpg.py [dir_path]
+
+
+GENERATE LABEL TXT:
+python labeler.py [dir_path]
