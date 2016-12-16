@@ -1,6 +1,18 @@
-GIF TO JPG:
+GIF图转JPG：
 python gif2jpg.py [dir_path]
 
 
-GENERATE LABEL TXT:
+生成label：
 python labeler.py [dir_path]
+要求一个类的图片放在一个文件夹，所有类的文件夹都放在[dir_path]文件夹下
+
+如一下目录结构：
+project-zhoubo
+-1
+-2
+-3
+-char
+-hh
+
+则python labeler.py project-zhoubo 即可
+
